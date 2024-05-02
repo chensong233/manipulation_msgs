@@ -1,0 +1,5 @@
+time stamp     # robot ros time at which trigger was demanded
+---
+bool success   # indicate successful run of triggered service
+string message # informational, e.g. for error messages
+time stamp     # operator ros time at which trigger was executed

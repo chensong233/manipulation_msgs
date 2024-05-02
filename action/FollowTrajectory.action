@@ -1,0 +1,11 @@
+# Goal
+nav_msgs/Path path
+---
+# Result
+geometry_msgs/Pose trackingError # Tracking error with respect to the reference path
+bool completed # True if the path was completed to the end. False if the path was interrupted. If false, no tracking error is provided.
+---
+# Feedback
+float32 percentComplete
+float32 timeRemaining
+geometry_msgs/Pose trackingError # Tracking error with respect to the reference path

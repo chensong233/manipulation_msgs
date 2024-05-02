@@ -1,0 +1,17 @@
+# Goal
+string motion_state
+geometry_msgs/PoseStamped poseStamped
+string source_frame
+string tool_frame
+string control_frame
+int8 origin
+int8 SINGLE_POSE=1
+int8 APRILTAGS=2
+int8 DETECTION=3
+---
+# Result
+bool goalReached
+---
+# Feedback
+float32 percentComplete
+float32 timeRemaining

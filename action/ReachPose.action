@@ -1,0 +1,10 @@
+# Goal
+geometry_msgs/PoseStamped poseStamped
+---
+# Result
+bool goalReached
+geometry_msgs/PoseStamped finalPose
+---
+# Feedback
+float32 percentComplete
+float32 timeRemaining

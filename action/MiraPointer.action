@@ -1,0 +1,12 @@
+# Goal
+geometry_msgs/PoseStamped poseStamped
+int8 laser
+int8 RAMAN=1
+int8 RASTER=2
+---
+# Result
+bool goalReached
+---
+# Feedback
+float32 percentComplete
+float32 timeRemaining

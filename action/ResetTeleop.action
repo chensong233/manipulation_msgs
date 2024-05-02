@@ -1,0 +1,10 @@
+#goal definition
+time stamp
+---
+#result definition
+bool success
+string message
+time stamp
+---
+#feedback
+time stamp
